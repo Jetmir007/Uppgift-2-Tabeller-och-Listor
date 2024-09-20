@@ -1,0 +1,36 @@
+#Ull {
+    list-style-type: circle;
+}
+table {
+    border-spacing: 0;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+thead {
+    background-color: rgb(139, 122, 92);
+    color: white;
+}
+tbody td:nth-child(1) {
+    text-align: center;
+}
+tbody td:nth-child(3) {
+    text-align: center;
+}
+tbody td:nth-child(2) {
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: antiquewhite;
+    color: gray;
+}
+tbody tr:nth-child(even) {
+    background-color: burlywood;
+    color: white;
+}
+td, th {
+    border: 1px solid black;
+}
+
+
+
